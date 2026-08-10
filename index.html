@@ -4,297 +4,602 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Techstation ETS</title>
-    <meta name="description" content="Techstation ETS - Formazione, tecnologia e innovazione.">
+    <title>3 News — La rassegna del venerdì</title>
+
+    <meta name="description"
+          content="Tre notizie, ogni venerdì. Una rassegna semplice e veloce su tecnologia, scienza, innovazione e società.">
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- =========================
-         HEADER
-    ========================== -->
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
 
-    <header class="site-header">
-        <div class="container header-inner">
+<header class="navbar">
 
-            <a href="#" class="logo">
-                Techstation ETS <span>📚</span>
+    <a href="#" class="logo">
+        <span class="logo-mark">3</span>
+        <span>NEWS</span>
+    </a>
+
+    <nav>
+        <a href="#rassegna">Rassegna</a>
+        <a href="#tldr">TL;DR</a>
+        <a href="#newsletter">Newsletter</a>
+        <a href="#eventi">Eventi</a>
+    </nav>
+
+    <a href="#newsletter" class="nav-button">
+        Ricevi la rassegna →
+    </a>
+
+</header>
+
+
+<main>
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero">
+
+    <div class="hero-meta">
+        <span>TECHSTATION</span>
+        <span>FRIDAY EDITION</span>
+    </div>
+
+    <div class="hero-content">
+
+        <div class="hero-number">
+            03
+        </div>
+
+        <div>
+
+            <h1>
+                Tre notizie.<br>
+                <span>Ogni venerdì.</span>
+            </h1>
+
+            <p class="hero-description">
+                La settimana è piena di notizie.
+                Noi ne scegliamo solo tre.
+                Quelle che vale davvero la pena conoscere.
+            </p>
+
+            <a href="#rassegna" class="primary-button">
+                Leggi la rassegna ↓
             </a>
 
-            <nav class="nav">
-                <a href="#iniziative">Iniziative</a>
-                <a href="#chi-siamo">Chi siamo</a>
-                <a href="#contatti">Contatti</a>
-            </nav>
-
         </div>
-    </header>
+
+    </div>
+
+    <div class="hero-bottom">
+
+        <span>EDIZIONE #24</span>
+
+        <span class="scroll-indicator">
+            SCROLL ↓
+        </span>
+
+    </div>
+
+</section>
 
 
-    <!-- =========================
-         HERO
-    ========================== -->
+<!-- =========================================================
+     INTRO
+========================================================= -->
 
-    <main>
+<section class="intro">
 
-        <section class="hero">
-            <div class="container">
+    <div class="section-label">
+        01 — LA RASSEGNA
+    </div>
 
-                <span class="eyebrow">
-                    TECHSTATION ETS
+    <div class="intro-text">
+
+        <h2>
+            Le notizie che
+            <span>abbiamo scelto.</span>
+        </h2>
+
+        <p>
+            Ogni venerdì raccogliamo quello che è successo durante
+            la settimana e scegliamo tre notizie.
+            Tecnologia, scienza, innovazione, cultura e tutto ciò
+            che pensiamo possa essere interessante.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     NEWS
+========================================================= -->
+
+<section id="rassegna" class="news-section">
+
+    <div class="section-header">
+
+        <div>
+            <span class="eyebrow">FRIDAY EDITION · 24</span>
+
+            <h2>
+                Questa settimana
+            </h2>
+        </div>
+
+        <span class="date">
+            11.08.2026
+        </span>
+
+    </div>
+
+
+    <div class="news-grid">
+
+        <!-- NEWS 01 -->
+
+        <article class="news-card featured">
+
+            <div class="news-image image-one">
+                <span class="news-number">01</span>
+
+                <span class="news-category">
+                    TECNOLOGIA
                 </span>
+            </div>
 
-                <h1>
-                    Buone notizie per iniziare
-                    <span>bene il fine settimana.</span>
-                </h1>
+            <div class="news-content">
 
-                <p class="hero-text">
-                    Scopri la nostra rassegna stampa, corsi e iniziative
-                    dedicate alla tecnologia, alla formazione e alla creatività.
+                <div class="news-source">
+                    SOURCE / ESEMPIO
+                </div>
+
+                <h3>
+                    L'intelligenza artificiale
+                    sta cambiando il modo
+                    in cui lavoriamo
+                </h3>
+
+                <p>
+                    Una nuova generazione di strumenti AI sta
+                    trasformando attività che fino a poco tempo
+                    fa sembravano esclusivamente umane.
                 </p>
 
-                <a href="#iniziative" class="button">
-                    Scopri le iniziative
+                <a href="#" class="read-more">
+                    Leggi la notizia →
                 </a>
 
             </div>
-        </section>
+
+        </article>
 
 
-        <!-- =========================
-             CONTENUTO
-        ========================== -->
+        <!-- NEWS 02 -->
 
-        <section id="iniziative" class="section">
-            <div class="container">
+        <article class="news-card">
 
-                <div class="section-heading">
-                    <span class="eyebrow">IN EVIDENZA</span>
+            <div class="news-image image-two">
+                <span class="news-number">02</span>
 
-                    <h2>
-                        Cosa c'è di nuovo
-                    </h2>
-
-                    <p>
-                        Una selezione delle attività e delle opportunità
-                        che puoi trovare su Techstation.
-                    </p>
-                </div>
-
-
-                <div class="cards">
-
-                    <!-- CARD 1 -->
-
-                    <article class="card">
-
-                        <div class="card-image image-1">
-                            <span>🚀</span>
-                        </div>
-
-                        <div class="card-content">
-
-                            <span class="tag">
-                                FORMAZIONE
-                            </span>
-
-                            <h3>
-                                Nuovi corsi in partenza
-                            </h3>
-
-                            <p>
-                                Scopri i prossimi percorsi formativi,
-                                laboratori e attività dedicate alla tecnologia.
-                            </p>
-
-                            <a href="#" class="card-link">
-                                Scopri di più →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- CARD 2 -->
-
-                    <article class="card">
-
-                        <div class="card-image image-2">
-                            <span>💡</span>
-                        </div>
-
-                        <div class="card-content">
-
-                            <span class="tag">
-                                TECNOLOGIA
-                            </span>
-
-                            <h3>
-                                Imparare facendo
-                            </h3>
-
-                            <p>
-                                Progetti pratici, strumenti digitali e
-                                attività pensate per trasformare le idee
-                                in qualcosa di concreto.
-                            </p>
-
-                            <a href="#" class="card-link">
-                                Scopri di più →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- CARD 3 -->
-
-                    <article class="card">
-
-                        <div class="card-image image-3">
-                            <span>🤖</span>
-                        </div>
-
-                        <div class="card-content">
-
-                            <span class="tag">
-                                INNOVAZIONE
-                            </span>
-
-                            <h3>
-                                Tecnologia per tutti
-                            </h3>
-
-                            <p>
-                                Dall'intelligenza artificiale alla robotica:
-                                esploriamo insieme le tecnologie che stanno
-                                cambiando il nostro modo di vivere.
-                            </p>
-
-                            <a href="#" class="card-link">
-                                Scopri di più →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- =========================
-             CTA
-        ========================== -->
-
-        <section class="cta">
-            <div class="container">
-
-                <div class="cta-box">
-
-                    <span class="eyebrow">
-                        RESTIAMO IN CONTATTO
-                    </span>
-
-                    <h2>
-                        Vuoi sapere cosa succede
-                        alla Techstation?
-                    </h2>
-
-                    <p>
-                        Segui le nostre attività e non perderti
-                        le prossime iniziative.
-                    </p>
-
-                    <a href="#" class="button button-light">
-                        Scopri Techstation
-                    </a>
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- =========================
-             CHI SIAMO
-        ========================== -->
-
-        <section id="chi-siamo" class="section about">
-
-            <div class="container about-grid">
-
-                <div>
-                    <span class="eyebrow">
-                        CHI SIAMO
-                    </span>
-
-                    <h2>
-                        Tecnologia, formazione
-                        e persone.
-                    </h2>
-                </div>
-
-                <div>
-                    <p>
-                        Techstation ETS promuove attività formative,
-                        laboratori e iniziative dedicate alla tecnologia
-                        e all'innovazione.
-                    </p>
-
-                    <p>
-                        L'obiettivo è rendere gli strumenti digitali
-                        più accessibili, pratici e comprensibili.
-                    </p>
-                </div>
-
+                <span class="news-category">
+                    SCIENZA
+                </span>
             </div>
 
-        </section>
+            <div class="news-content">
 
-    </main>
+                <div class="news-source">
+                    SOURCE / ESEMPIO
+                </div>
 
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
-
-    <footer id="contatti">
-
-        <div class="container footer-inner">
-
-            <div>
-                <strong>Techstation ETS 📚</strong>
+                <h3>
+                    Una scoperta potrebbe
+                    cambiare quello che
+                    sappiamo sullo spazio
+                </h3>
 
                 <p>
-                    Formazione · Tecnologia · Innovazione
+                    Gli ultimi dati raccolti dagli strumenti
+                    scientifici stanno aprendo nuove domande
+                    sulla nostra comprensione dell'universo.
                 </p>
+
+                <a href="#" class="read-more">
+                    Leggi la notizia →
+                </a>
+
             </div>
 
-            <div class="footer-links">
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-                <a href="#">Contatti</a>
+        </article>
+
+
+        <!-- NEWS 03 -->
+
+        <article class="news-card">
+
+            <div class="news-image image-three">
+                <span class="news-number">03</span>
+
+                <span class="news-category">
+                    SOCIETÀ
+                </span>
             </div>
+
+            <div class="news-content">
+
+                <div class="news-source">
+                    SOURCE / ESEMPIO
+                </div>
+
+                <h3>
+                    La tecnologia entra
+                    sempre di più nella
+                    nostra vita quotidiana
+                </h3>
+
+                <p>
+                    Dai servizi pubblici agli strumenti che
+                    utilizziamo ogni giorno: ecco cosa sta
+                    cambiando e perché ci riguarda.
+                </p>
+
+                <a href="#" class="read-more">
+                    Leggi la notizia →
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     TLDR
+========================================================= -->
+
+<section id="tldr" class="tldr-section">
+
+    <div class="section-label">
+        02 — TL;DR
+    </div>
+
+    <div class="tldr-header">
+
+        <h2>
+            Non hai tempo?<br>
+            <span>Ti bastano 30 secondi.</span>
+        </h2>
+
+        <p>
+            Abbiamo condensato le tre notizie in poche righe.
+            Niente clickbait. Niente giri di parole.
+        </p>
+
+    </div>
+
+
+    <div class="tldr-list">
+
+        <div class="tldr-item">
+
+            <span class="tldr-number">01</span>
+
+            <div>
+
+                <h3>
+                    L'AI sta cambiando il lavoro
+                </h3>
+
+                <p>
+                    In breve: nuovi strumenti permettono di
+                    automatizzare sempre più attività quotidiane.
+                    Il punto interessante non è solo cosa può fare
+                    l'AI, ma come cambierà il nostro modo di lavorare.
+                </p>
+
+            </div>
+
+            <span class="tldr-tag">
+                AI
+            </span>
 
         </div>
 
-        <div class="container copyright">
-            © <span id="year"></span> Techstation ETS
+
+        <div class="tldr-item">
+
+            <span class="tldr-number">02</span>
+
+            <div>
+
+                <h3>
+                    Una nuova scoperta nello spazio
+                </h3>
+
+                <p>
+                    In breve: nuovi dati stanno mettendo alla prova
+                    alcune delle nostre attuali teorie e potrebbero
+                    aprire nuove strade alla ricerca.
+                </p>
+
+            </div>
+
+            <span class="tldr-tag">
+                SCIENZA
+            </span>
+
         </div>
 
-    </footer>
+
+        <div class="tldr-item">
+
+            <span class="tldr-number">03</span>
+
+            <div>
+
+                <h3>
+                    Tecnologia e vita quotidiana
+                </h3>
+
+                <p>
+                    In breve: servizi e strumenti digitali stanno
+                    diventando parte integrante della nostra vita.
+                    Capire come funzionano significa capire meglio
+                    il mondo in cui viviamo.
+                </p>
+
+            </div>
+
+            <span class="tldr-tag">
+                SOCIETÀ
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
 
 
-    <script src="script.js"></script>
+<!-- =========================================================
+     NEWSLETTER
+========================================================= -->
+
+<section id="newsletter" class="newsletter">
+
+    <div class="newsletter-inner">
+
+        <div class="newsletter-number">
+            03
+        </div>
+
+        <div class="newsletter-content">
+
+            <span class="eyebrow">
+                OGNI VENERDÌ · NELLA TUA INBOX
+            </span>
+
+            <h2>
+                Tre notizie.<br>
+                Zero rumore.
+            </h2>
+
+            <p>
+                Iscriviti alla newsletter e ricevi ogni venerdì
+                la nostra selezione direttamente nella tua inbox.
+            </p>
+
+            <form class="newsletter-form">
+
+                <input
+                    type="email"
+                    placeholder="La tua email"
+                    required
+                >
+
+                <button type="submit">
+                    Iscrivimi →
+                </button>
+
+            </form>
+
+            <small>
+                Niente spam. Solo una newsletter alla settimana.
+            </small>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     EVENTS
+========================================================= -->
+
+<section id="eventi" class="events">
+
+    <div class="section-label">
+        04 — OLTRE LA RASSEGNA
+    </div>
+
+    <div class="events-header">
+
+        <h2>
+            E quando<br>
+            succede qualcosa?
+        </h2>
+
+        <p>
+            La rassegna è il nostro appuntamento fisso.
+            Ma ogni tanto organizziamo anche corsi, laboratori,
+            incontri ed eventi.
+        </p>
+
+    </div>
+
+
+    <div class="events-list">
+
+        <article class="event">
+
+            <div class="event-date">
+                <span>PROSSIMAMENTE</span>
+            </div>
+
+            <div class="event-info">
+
+                <span class="event-type">
+                    CORSO
+                </span>
+
+                <h3>
+                    Nuovi corsi in arrivo
+                </h3>
+
+                <p>
+                    Stiamo preparando nuove attività formative
+                    dedicate a tecnologia, creatività e competenze
+                    digitali.
+                </p>
+
+            </div>
+
+            <span class="event-arrow">
+                →
+            </span>
+
+        </article>
+
+
+        <article class="event">
+
+            <div class="event-date">
+                <span>DA DEFINIRE</span>
+            </div>
+
+            <div class="event-info">
+
+                <span class="event-type">
+                    EVENTO
+                </span>
+
+                <h3>
+                    Laboratori e incontri
+                </h3>
+
+                <p>
+                    Quando ci sarà qualcosa di nuovo,
+                    lo troverai qui.
+                </p>
+
+            </div>
+
+            <span class="event-arrow">
+                →
+            </span>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FINAL CTA
+========================================================= -->
+
+<section class="final-cta">
+
+    <div class="final-cta-label">
+        VENERDÌ PROSSIMO
+    </div>
+
+    <h2>
+        Ci vediamo<br>
+        <span>nella prossima rassegna.</span>
+    </h2>
+
+    <a href="#newsletter" class="primary-button">
+        Iscriviti alla newsletter →
+    </a>
+
+</section>
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <div class="footer-top">
+
+        <div class="footer-logo">
+            <span class="logo-mark">3</span>
+            <strong>NEWS</strong>
+        </div>
+
+        <p>
+            Una rassegna curata da
+            <a href="https://techstationpadova.it/"
+               target="_blank"
+               rel="noopener">
+                TechStation
+            </a>.
+        </p>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 TechStation
+        </span>
+
+        <span>
+            Padova, Italia
+        </span>
+
+        <a href="#">
+            Instagram
+        </a>
+
+        <a href="#">
+            Privacy
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
-```
+
