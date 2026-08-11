@@ -154,7 +154,7 @@ input {
 .hero-content {
     display: grid;
 
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: minmax(180px, 20vw) 1fr;
 
     gap: 4vw;
 
@@ -163,12 +163,18 @@ input {
 
 .hero-number {
     font-family: var(--mono);
-    font-size: clamp(90px, 14vw, 220px);
+
+    font-size: clamp(90px, 12vw, 180px);
+
     line-height: 0.8;
 
     color: var(--red);
 
-    letter-spacing: -0.1em;
+    letter-spacing: -0.08em;
+
+    white-space: nowrap;
+
+    text-align: left;
 }
 
 .hero h1 {
