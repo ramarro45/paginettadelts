@@ -461,13 +461,25 @@ section {
 .tldr-header {
     display: grid;
 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 1fr);
 
     gap: 5vw;
 
     margin-top: 60px;
 
     align-items: end;
+}
+
+.tldr-header > * {
+    min-width: 0;
+}
+
+.tldr-header h2 {
+    overflow-wrap: break-word;
+}
+
+.tldr-header h2 span {
+    display: inline;
 }
 
 .tldr-header h2 {
@@ -493,11 +505,10 @@ section {
 .tldr-list {
     margin-top: 80px;
 }
-
 .tldr-item {
     display: grid;
 
-    grid-template-columns: 80px 1fr auto;
+    grid-template-columns: 60px minmax(0, 1fr) auto;
 
     gap: 30px;
 
@@ -506,6 +517,30 @@ section {
     border-top: 1px solid #bbb8af;
 
     align-items: start;
+}
+
+.tldr-item p {
+    max-width: 700px;
+
+    line-height: 1.6;
+
+    margin-top: 10px;
+
+    color: var(--muted);
+
+    font-size: 15px;
+}
+
+.tldr-item > * {
+    min-width: 0;
+}
+
+.tldr-item h3 {
+    overflow-wrap: break-word;
+}
+
+.tldr-item p {
+    overflow-wrap: break-word;
 }
 
 .tldr-number {
